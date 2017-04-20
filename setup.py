@@ -3,7 +3,7 @@ setup(
     name="screenshot-autom8",
     version="0.1",
     packages=find_packages(),
-    scripts=['autom8.py'],
+    scripts=['autom8.py'],['drivers/geckodriver'],
 
     # Project uses selenium
     install_requires=['selenium>=3.0'],
