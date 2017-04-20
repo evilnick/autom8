@@ -9,10 +9,6 @@ import credentials
 sswidth=1024
 ssheight=768
 
-# silly drivers need to be in path
-os.environ["PATH"] = os.environ["PATH"] + ":" + os.getcwd()
-
-
 
 def JAASstart(driver):
    
