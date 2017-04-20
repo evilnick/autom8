@@ -1,5 +1,6 @@
 import argparse
 import sys
+import os
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
@@ -8,6 +9,8 @@ import credentials
 sswidth=1024
 ssheight=768
 
+# silly drivers need to be in path
+os.environ["PATH"] = os.environ["PATH"] + ":" + os.getcwd()
 
 
 
